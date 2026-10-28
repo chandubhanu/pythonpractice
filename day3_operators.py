@@ -26,3 +26,13 @@ print(a / b) #Notice that / gives a floating-point result, even when the answer 
 """
 print(a // b)
 print(a % b)
+
+"""
+Python performs multiplication before addition.
+
+So work out 3 * 2 first, then add 10
+"""
+a = 10
+b = 3
+
+print(a + b * 2)
